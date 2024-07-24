@@ -3,6 +3,10 @@ header{
     height: 100px;
 }
 
+h1{
+    height: 30px;
+}
+
 
 /* Utils  */
 .my-col{
@@ -17,7 +21,12 @@ header{
 
 .my-card{
     background-color: aquamarine;
-    width: 70%;
     height: 300px;
+    width: 70%;
 }
 
+.my-img{
+    background-color: aquamarine;
+    height: 300px;
+    width: 100%;
+}
