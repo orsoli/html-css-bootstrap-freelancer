@@ -3,6 +3,9 @@ header{
     background-color: #2D3E50;
 }
 
+img{
+    max-width: 100%;
+}
 
 /* Utils  */
 .my-col{
