@@ -8,6 +8,16 @@ img{
 }
 
 /* Utils  */
+.my-bg-color{
+    background-color: #1CBC9C;
+}
+
+.line{
+    border: 2px solid white;
+    height: 0;
+}
+
+/*! Deleted  */
 .my-col{
     background-color: bisque;
     border: 1px solid blue;
@@ -38,14 +48,10 @@ img{
 .copy-right{
     height: 100px;
 }
+/*! deleted  */
 
 
 /* Profile section  */
-.profile{
-    background-color: #1CBC9C;
-}
 
-.line{
-    border: 2px solid white;
-    height: 0;
-}
+
+
