@@ -35,3 +35,14 @@ header{
 .copy-right{
     height: 100px;
 }
+
+
+/* Profile section  */
+.profile{
+    background-color: #1CBC9C;
+}
+
+.line{
+    border: 2px solid white;
+    height: 0;
+}
