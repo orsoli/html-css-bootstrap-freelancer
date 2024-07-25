@@ -118,12 +118,22 @@
           </div>
     </section>
     <!-- Contact section  -->
-    <section class="d-flex justify-content-center">
-        <div class="row container my-border justify-content-center">
-            <div class="col d-flex justify-content-center py-4">
-                <div class="my-card my-border"></div>
+    <section class="py-4">
+        <div class="card-body text-uppercase text-center p-3">
+            <h1 class="card-title fw-bold">Contact me</h1>
+            <div class="d-flex justify-content-center align-items-center gap-3 py-3">
+                <div class="line col-1 border-secondary"></div>
+                <i class="bi bi-star-fill fs-1"></i>
+                <div class="line col-1 border-secondary"></div>
             </div>
         </div>
+        <form class="container col-8 row-cols-1">  
+              <input type="text" class="border-0 border-bottom rounded-0 ps-0 py-3" id="name" placeholder="Name"> 
+              <input type="email" class="border-0 border-bottom rounded-0 ps-0 py-3" id="email" placeholder="Email Address">  
+              <input type="tel" class="border-0 border-bottom rounded-0 ps-0 py-3" id="phone" placeholder="Phone Number"> 
+              <textarea name="message" id="message" placeholder="Message" class="border-0 border-bottom rounded-0 ps-0 w-100" rows="5"></textarea>
+              <button type="submit" class="btn my-bg-color text-white col-3">Submit</button>
+        </form>
     </section>
     <!-- Footer  -->
      <footer class="bg-dark pt-4">
